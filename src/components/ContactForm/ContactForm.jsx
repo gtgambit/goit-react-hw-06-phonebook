@@ -71,7 +71,7 @@ export const ContactForm = ({ handleAddContact }) => {
         />
       </label>
 
-      <button type="Submit">{'<-'} Add Contact</button>
+      <button type="Submit">Add Contact</button>
     </form>
   );
 };
