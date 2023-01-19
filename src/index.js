@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { App } from './App';
 import { Provider } from 'react-redux';
-import { store } from './components/Redux/store';
+import { store } from './Redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
-import { persistor } from './components/Redux/store';
+import { persistor } from './Redux/store';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
