@@ -18,7 +18,7 @@ const ContactList = () => {
 
   return (
     <>
-      {contacts.length ? (
+      {filteredContacts.length ? (
         <div className={css.contactList}>
           <ul className={css.ul}>
             {filteredContacts.map(({ name, id, number }) => (
