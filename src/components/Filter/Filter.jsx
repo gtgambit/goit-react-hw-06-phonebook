@@ -15,9 +15,8 @@ const Filter = () => {
           type="text"
           name="filter"
           value={value}
-          onChange={e => {
-            const action = filterContact(e.target.value);
-            dispatch(action);
+          onChange={event => {
+            dispatch(filterContact(event.target.value));
           }}
           className={css.input}
           placeholder=" "
